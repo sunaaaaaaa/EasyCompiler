@@ -1,0 +1,4 @@
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/CMakeFiles/rebuild_cache.dir
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/CMakeFiles/edit_cache.dir
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/CMakeFiles/easycal.dir
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/CMakeFiles/test.dir

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.cc
+lexer.h
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.h
+iostream
+-
+
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.h
+token.h
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/token.h
+sstream
+-
+iostream
+-
+map
+-
+
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/token.h
+string
+-
+vector
+-
+iostream
+-
+
