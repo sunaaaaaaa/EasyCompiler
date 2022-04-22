@@ -8,6 +8,7 @@ namespace easy_cal{
 
 class Lexer{
 public:
+    friend class Parser;
     enum DFAState{
        INIT,
        IF,
