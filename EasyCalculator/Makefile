@@ -166,6 +166,60 @@ lexer/lexer.cc.s:
 	$(MAKE) -f CMakeFiles/easycal.dir/build.make CMakeFiles/easycal.dir/lexer/lexer.cc.s
 .PHONY : lexer/lexer.cc.s
 
+parser/ast.o: parser/ast.cc.o
+
+.PHONY : parser/ast.o
+
+# target to build an object file
+parser/ast.cc.o:
+	$(MAKE) -f CMakeFiles/easycal.dir/build.make CMakeFiles/easycal.dir/parser/ast.cc.o
+.PHONY : parser/ast.cc.o
+
+parser/ast.i: parser/ast.cc.i
+
+.PHONY : parser/ast.i
+
+# target to preprocess a source file
+parser/ast.cc.i:
+	$(MAKE) -f CMakeFiles/easycal.dir/build.make CMakeFiles/easycal.dir/parser/ast.cc.i
+.PHONY : parser/ast.cc.i
+
+parser/ast.s: parser/ast.cc.s
+
+.PHONY : parser/ast.s
+
+# target to generate assembly for a file
+parser/ast.cc.s:
+	$(MAKE) -f CMakeFiles/easycal.dir/build.make CMakeFiles/easycal.dir/parser/ast.cc.s
+.PHONY : parser/ast.cc.s
+
+parser/parser.o: parser/parser.cc.o
+
+.PHONY : parser/parser.o
+
+# target to build an object file
+parser/parser.cc.o:
+	$(MAKE) -f CMakeFiles/easycal.dir/build.make CMakeFiles/easycal.dir/parser/parser.cc.o
+.PHONY : parser/parser.cc.o
+
+parser/parser.i: parser/parser.cc.i
+
+.PHONY : parser/parser.i
+
+# target to preprocess a source file
+parser/parser.cc.i:
+	$(MAKE) -f CMakeFiles/easycal.dir/build.make CMakeFiles/easycal.dir/parser/parser.cc.i
+.PHONY : parser/parser.cc.i
+
+parser/parser.s: parser/parser.cc.s
+
+.PHONY : parser/parser.s
+
+# target to generate assembly for a file
+parser/parser.cc.s:
+	$(MAKE) -f CMakeFiles/easycal.dir/build.make CMakeFiles/easycal.dir/parser/parser.cc.s
+.PHONY : parser/parser.cc.s
+
 test.o: test.cc.o
 
 .PHONY : test.o
@@ -206,6 +260,12 @@ help:
 	@echo "... lexer/lexer.o"
 	@echo "... lexer/lexer.i"
 	@echo "... lexer/lexer.s"
+	@echo "... parser/ast.o"
+	@echo "... parser/ast.i"
+	@echo "... parser/ast.s"
+	@echo "... parser/parser.o"
+	@echo "... parser/parser.i"
+	@echo "... parser/parser.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

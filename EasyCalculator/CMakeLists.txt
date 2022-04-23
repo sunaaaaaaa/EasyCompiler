@@ -7,6 +7,8 @@ set(CMAKE_CXX_FLAGS "$ENV{CXXFLAGS} -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-de
 #set命令将第二行开始的文件添加到变量LIB_SRC中去，可以通过${}取出
 set(LIB_SRC
    lexer/lexer.cc
+   parser/parser.cc
+   parser/ast.cc
    )
 
 include_directories(.)

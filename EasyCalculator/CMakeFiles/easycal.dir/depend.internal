@@ -5,3 +5,12 @@ CMakeFiles/easycal.dir/lexer/lexer.cc.o
  /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.cc
  /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.h
  /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/token.h
+CMakeFiles/easycal.dir/parser/ast.cc.o
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/ast.cc
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/ast.h
+CMakeFiles/easycal.dir/parser/parser.cc.o
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.h
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/token.h
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/ast.h
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/parser.cc
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/parser.h

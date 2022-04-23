@@ -24,9 +24,27 @@ vector
 iostream
 -
 
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/ast.h
+string
+-
+memory
+-
+vector
+-
+
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/parser.h
+ast.h
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/ast.h
+../lexer/lexer.h
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.h
+string
+-
+
 /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/test.cc
 lexer/lexer.h
 /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.h
+parser/parser.h
+/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/parser.h
 string
 -
 unistd.h

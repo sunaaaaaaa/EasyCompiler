@@ -32,7 +32,7 @@ public:
     };
     Lexer();//初始化关键字集合
     void lexer(std::string& code);
-
+    void init();
     void dump(){
         Token token;
         while((token = m_reader.readNext()).m_type != Token::DEFAULT){

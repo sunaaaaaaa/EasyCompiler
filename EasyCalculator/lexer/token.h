@@ -50,15 +50,22 @@ public:
         m_default = Token(Token::DEFAULT);
         m_tokens.swap(tokens);
     }
+    void init(){
+        initPos();
+        m_tokens.clear();
+    }
+    void initPos(){
+        m_pos = 0;
+    }
     //读取下一个Token
-    Token readNext(){
+    const Token& readNext(){
         if(m_pos < m_tokens.size()){
             return m_tokens.at(m_pos++);
         }
         return m_default;
     }
     //访问下一个Token，但不取出
-    Token peek(){
+    const Token& peek(){
         if(m_pos < m_tokens.size()){
             return m_tokens.at(m_pos);
         }

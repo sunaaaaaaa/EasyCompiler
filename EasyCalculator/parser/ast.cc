@@ -11,18 +11,18 @@ std::vector<ASTNode::ptr> ASTNode::getChilds(){
 ASTNode::ptr ASTNode::getParent(){
     return m_parent;
 }
-void ASTNode::addChildNode(ASTNode& node){
-    ASTNode::ptr p(&node);
-    m_childs.push_back(p);
+void ASTNode::addChildNode(ASTNode::ptr node){
+    m_childs.push_back(node);
 }
 
 void ASTNode::PrintAST(ASTNode& node,uint32_t level){
-    for(auto i = 0;i<level;++i){
+    for(uint32_t i = 0;i<level;++i){
         std::cout << '\t';
     }
-    std::cout << node.m_type << "  " << node.m_text << std::endl;  
+    std::cout << node.m_type << "  " << node.m_text << std::endl;
+    ++level;  
     for(auto child: node.m_childs){
-        PrintAST(*child.get(), ++level); 
+        PrintAST(*child.get(), level); 
     }
 }
 

@@ -4,4 +4,6 @@
 CMakeFiles/test.dir/test.cc.o
  /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.h
  /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/token.h
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/ast.h
+ /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/parser.h
  /home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/test.cc

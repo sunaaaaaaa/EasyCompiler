@@ -27,7 +27,7 @@ public:
      const std::string& getText()const {return m_text;} 
      std::vector<ASTNode::ptr> getChilds();
      ASTNode::ptr getParent();
-     void addChildNode(ASTNode& node);
+     void addChildNode(ASTNode::ptr node);
      
      //静态函数，打印当前AST子树
      static void PrintAST(ASTNode& node,uint32_t level = 0);

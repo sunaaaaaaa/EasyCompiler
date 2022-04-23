@@ -1,1 +1,1 @@
-/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function  -shared -Wl,-soname,libeasycal.so -o lib/libeasycal.so CMakeFiles/easycal.dir/lexer/lexer.cc.o 
+/usr/bin/c++ -fPIC  -rdynamic -O0 -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function  -shared -Wl,-soname,libeasycal.so -o lib/libeasycal.so CMakeFiles/easycal.dir/lexer/lexer.cc.o CMakeFiles/easycal.dir/parser/parser.cc.o CMakeFiles/easycal.dir/parser/ast.cc.o 

@@ -3,5 +3,7 @@
 
 CMakeFiles/test.dir/test.cc.o: lexer/lexer.h
 CMakeFiles/test.dir/test.cc.o: lexer/token.h
+CMakeFiles/test.dir/test.cc.o: parser/ast.h
+CMakeFiles/test.dir/test.cc.o: parser/parser.h
 CMakeFiles/test.dir/test.cc.o: test.cc
 

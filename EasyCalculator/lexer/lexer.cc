@@ -8,7 +8,10 @@ Lexer::Lexer(){
    m_keywords.insert(std::map<std::string,Token::TokenType>::value_type("if",Token::IF));
    m_keywords.insert(std::map<std::string,Token::TokenType>::value_type("else",Token::ELSE));
 }
-
+void Lexer::init(){
+   m_reader.init();
+   m_tokens.clear();
+}
 Lexer::DFAState Lexer::initToken(char ch){
    DFAState state = DFAState::INIT;
    if(ch == ' '){

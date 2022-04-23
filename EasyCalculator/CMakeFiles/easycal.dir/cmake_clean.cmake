@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/easycal.dir/lexer/lexer.cc.o"
+  "CMakeFiles/easycal.dir/parser/parser.cc.o"
+  "CMakeFiles/easycal.dir/parser/ast.cc.o"
   "lib/libeasycal.pdb"
   "lib/libeasycal.so"
 )

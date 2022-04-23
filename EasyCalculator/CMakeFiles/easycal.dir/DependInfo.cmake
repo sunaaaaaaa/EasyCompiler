@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/lexer/lexer.cc" "/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/CMakeFiles/easycal.dir/lexer/lexer.cc.o"
+  "/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/ast.cc" "/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/CMakeFiles/easycal.dir/parser/ast.cc.o"
+  "/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/parser/parser.cc" "/home/lighthouse/cppSpace/EasyCompiler/EasyCalculator/CMakeFiles/easycal.dir/parser/parser.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
